@@ -12,6 +12,8 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
 	<script src="./assets/maugallery.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
+	<title>ninacarducci</title>
+	<meta name="description" content="Portfolio de la photographe nina carducci">
 	<!--Ajouter une balise title-->
 	<!--Ajouter une balise meta-->
 </head>
@@ -19,19 +21,19 @@
 <!---->
 
 <body>
-<div class="top-header"> <!--balise html <header> -->
+<header> <!--balise html <header> -->
 	<h3 class="name">Nina Carducci</h3>
-	<div class="nav">   <!-- class nav to balise <nav> -->
+	<nav>   <!-- class nav to balise <nav> -->
 		<ul>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
 			<li><a href="#services">Service</a></li>
 			<li><a href="#contact">Contact</a></li>
 		<!--Ajouter un alt-->
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt=""></a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt="Logo instagram"></a></li>
 		</ul>
-	</div>
-</div>
+	</nav>
+</header>
 <!--main-->
 <div id="header">
 
@@ -43,13 +45,13 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-			<!--Ajouter un alt-->	<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100" alt="..." fetchpriority="high">
+			<!--Ajouter un alt-->	<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100" alt="Un homme qui traverse un passage pieton" fetchpriority="high">
 			</div>
 			<div class="carousel-item">
-			<!--Ajouter un alt-->	<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100" alt="..." loading="lazy">
+			<!--Ajouter un alt-->	<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100" alt="Une foule qui celebre" loading="lazy">
 			</div>
 			<div class="carousel-item">
-			<!--Ajouter un alt-->	<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100" alt="..." loading="lazy">
+			<!--Ajouter un alt-->	<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100" alt="2 Marié qui s'embrasse" loading="lazy">
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -65,7 +67,7 @@
 <!--article-->
 <div id="about">
 	<div class="picture left"> <!--section-->
-	<!--Ajouter un alt-->	<img src="./assets/images/nina.webp" loading="lazy">
+	<!--Ajouter un alt-->	<img src="./assets/images/nina.webp" alt="Image d'une fille avec les bras croisé" loading="lazy">
 	</div><!--section-->
 	<div id="about-me"><!--section-->
 		<h3 class="about-me__title">A propos de moi</h3>
@@ -82,15 +84,15 @@
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
 		<!--Ajouter un alt-->
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" loading="lazy"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" loading="lazy"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" loading="lazy"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" loading="lazy"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" loading="lazy"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" loading="lazy"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" loading="lazy"/>
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" loading="lazy"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" loading="lazy"/>
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="Une foule qui assiste à un concert" loading="lazy"/>
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="un homme en costume avec les bras croisés" loading="lazy"/>
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="Une femme assise qui sourit" loading="lazy"/>
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="deux mains" loading="lazy"/>
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="Un homme qui ferme les yeux" loading="lazy"/>
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="deux marié qui marche sur une plage" loading="lazy"/>
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="une fille qui se tiens les cheveux" loading="lazy"/>
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="un artiste qui chante" loading="lazy"/>
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="Une fille qui sourit" loading="lazy"/>
 		<!--Ajouter un alt-->
 		</div>
 	</div>
@@ -172,7 +174,7 @@
 			</form>
 		</div>
 		<div class="picture right">
-		<!--Ajouter un alt-->	<img src="./assets/images/camera.webp" loading="lazy">
+		<!--Ajouter un alt-->	<img src="./assets/images/camera.webp" alt="une camera" loading="lazy">
 		</div>
 	</div>
 </div>
