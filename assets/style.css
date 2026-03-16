@@ -43,6 +43,10 @@ nav a {
 	width: 20px;
 }
 
+.visually-hidden {
+	color: #000;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -102,7 +106,7 @@ nav a {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000; /*Blanc -> noir pour resoudre une contraste error */
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -216,6 +220,12 @@ nav a {
 	flex : 2;
 
 }
+
+/*Changement de la taille du text pour correspondre au design de base*/
+.form-container h2 {
+	font-size: calc(1.3rem + 0.6vw);
+}
+
 form {
 	display: flex;
 	flex-direction: column;
@@ -256,7 +266,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me h4, #about-me p {
 		width: 100%;
 	}
 }
