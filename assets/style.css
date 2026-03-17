@@ -19,7 +19,7 @@ header {
 	align-items: center;
 }
 
-header .name {
+header h1 {
 	font-size: 26px;
 }
 
@@ -44,7 +44,7 @@ nav a {
 }
 
 .visually-hidden {
-	color: #000;
+	color: #000; /*Ajout pour resoudre une contraste error*/
 }
 
 #about {
@@ -89,15 +89,13 @@ nav a {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1.5rem;
 }
 #about-me p {
 	width: 80%;
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -152,6 +150,7 @@ nav a {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 2.5rem;
 
 }
 .quote__author {
@@ -331,15 +330,15 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 650px) {
-	.top-header {
+	header {
 		flex-direction: column;
 		padding-inline: 0;
 	}
-	.top-header .nav, .top-header .nav ul {
+	header nav, header nav ul {
 		width: 100%;
 		padding: 0 0 0 0;
 	}
-	.top-header .nav li {
+	header nav li {
 		flex: 1;
 		padding-block: 1em;
 		text-align: center;
